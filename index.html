@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>energy maze with traps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-container">
+        <h2>login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <button id="login-btn">login</button>
+    </div>
+    <div id="game-container" style="display: none;">
+        <h1>energy Maze with traps</h1>
+        <p>highest score: <span id="highest-score">0</span></p>
+        <div id="game-grid"></div>
+        <div class="info">
+            <p>energy: <span id="energy">50</span></p>
+            <p>level: <span id="level">1</span></p>
+            <p>current score: <span id="current-score">0</span></p>
+        </div>
+        <div class="controls">
+            <button id="up">up</button>
+            <button id="left">left</button>
+            <button id="right">right</button>
+            <button id="down">down</button>
+        </div>
+        <button id="restart">restart game</button>
+        <button id="logout">logout</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

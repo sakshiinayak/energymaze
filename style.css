@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#game-grid {
+    display: inline-grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-gap: 1px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 3px;
+}
+
+.player {
+    background-color: #4CAF50;
+}
+
+.energy-pack {
+    background-color: #2196F3;
+}
+
+.trap {
+    background-color: #f44336;
+}
+
+.destination {
+    background-color: #FFC107;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color:rgb(89, 240, 240);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(89, 240, 240);
+}
+
+input{
+    border: 2px solid black;
+    padding:9px 9px 9px 9px;
+    border-radius: 8px;
+}
+    
+input::placeholder {
+    color: #5e5d5d;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#restart {
+    margin-top: 20px;
+    background-color: #f44336;
+}
+
+#restart:hover {
+    background-color: #d32f2f;
+}
