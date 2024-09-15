@@ -58,7 +58,7 @@ button {
     font-size: 16px;
     margin: 5px;
     padding: 10px 15px;
-    background-color:rgb(89, 240, 240);
+    background-color:paleturquoise;
     color: black;
     border: none;
     border-radius: 5px;
@@ -66,7 +66,7 @@ button {
 }
 
 button:hover {
-    background-color:rgb(89, 240, 240);
+    background-color:paleturquoise;
 }
 
 input{
@@ -83,9 +83,9 @@ input::placeholder {
 
 #restart {
     margin-top: 20px;
-    background-color: #f44336;
+    background-color: #F7C5CC;
 }
 
 #restart:hover {
-    background-color: #d32f2f;
+    background-color:#F7C5CC;
 }
