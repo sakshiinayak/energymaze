@@ -1,24 +1,23 @@
 # Energy Level Maze Game
 
-An interactive web-based game where players navigate through a grid-based maze, managing their energy while avoiding traps and collecting energy packs. The game features multiple levels of increasing difficulty, where players must strategize their moves to reach the destination before running out of energy.
+An interactive web-based game where players navigate through a grid-based maze, managing their energy while avoiding traps and collecting energy packs. 
 
 ## Features  
-Grid-Based Gameplay: Navigate through a 10x10 grid maze with intuitive controls.  
-Energy Management: Collect hidden energy packs to maintain energy levels and survive through the maze.  
-Multiple Levels: Levels with increasing difficulty.  
-Dynamic Grid Display: Visually see your moves on the grid, with cells changing color based on the player's path.  
-Randomized Traps: The maze resets with new traps and a new destination on each restart, providing a unique challenge every time.  
-Highest Score: The highest score for each user is saved and set again when the user achieves a score more than the current highest score.
+Grid-Based Gameplay: Navigate a 10x10 maze with easy controls.
+Energy Management: Find hidden energy packs to sustain your journey.
+Progressive Levels: Face increasingly challenging levels.
+Dynamic Grid Display: Track moves with cells changing color as you progress.
+Randomized Traps: New traps and destinations on each restart keep gameplay fresh.
+High Score Tracking: Highest score updates each time a user beats their personal best.
 
 ## Game Controls   
 Movement: Use the "Up," "Down," "Left," and "Right" buttons to move the player within the grid.  
 Restart: Click the "Restart Game" button to start a new game with a freshly randomized grid.  
 
 ## How to Play  
-Objective: Navigate the player to the destination in the grid while managing energy levels.  
-Movement: Click the directional buttons to move the player in the maze. Each move decreases the energy level.  
-Energy Packs: The player can collect hidden energy packs to replenish energy. An alert will notify when an energy pack is collected.  
-Winning: Reach the hidden destination before running out of energy.  
+Objective: Navigate the player to the hidden destination by managing energy levels using directional buttons; each move decreases energy.
+Energy Packs: Collect hidden packs to refill energy, with alerts upon collection.
+Winning: Reach the destination before energy runs out.
 Restarting: Click "Restart Game" to reset the maze with new traps and a new destination.
 
 ## Technologies Used    
